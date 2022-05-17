@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дмитрий Соколов](https://up.htmlacademy.ru/htmlcss/34/user/2094077).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Елькин](https://htmlacademy.ru/profile/alex_elkin).
 
 ---
 
