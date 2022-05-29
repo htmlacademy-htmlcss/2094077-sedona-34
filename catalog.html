@@ -91,15 +91,15 @@
             </legend>
             <ul class="filter-form-list">
               <li class="filter-form-item">
-                <input class="filter-form-housing-button" type="radio" name="hotel" checked>
+                <input class="filter-form-housing-button" type="radio" name="type-of-housing" value="hotel" checked>
                 Гостиница
               </li>
               <li class="filter-form-item">
-                <input class="filter-form-housing-button" type="radio" name="motel">
+                <input class="filter-form-housing-button" type="radio" name="type-of-housing" value="motel">
                 Мотель
               </li>
               <li class="filter-form-item">
-                <input class="filter-form-housing-button" type="radio" name="apartments">
+                <input class="filter-form-housing-button" type="radio" name="type-of-housing" value="appartments">
                 Апартаменты
               </li>
             </ul>
@@ -136,11 +136,21 @@
       <section class="found-hotels">
         <h2 class="found-hotels-title">Найдено гостиниц:</h2>
         <output name="found-hotels-number"><!--38--></output>
+        <details class="dropdown">
+          <summary class="button-dropdown">Сортировка</summary>
+          <div class="dropdown-menu-show">
+            <a class="dropdown-item" href="#">Сначала дешёвое</a>
+            <a class="dropdown-item" href="#">Сначала дорогое</a>
+            <a class="dropdown-item" href="#">Сначала популярное</a>
+          </div>
+        </details>
+        <!--
         <select class="select-found-hotels" aria-label="Сортировка">
           <option value="cheap">Сначала дешёвое</option>
           <option value="expensive">Сначала дорогое</option>
           <option value="popular">Сначала популярное</option>
         </select>
+        -->
         <a class="button-list-view" href="#">
           <span class="visually-hidden">Показать таблицей</span>
         </a>
@@ -160,7 +170,8 @@
             <b class="product-card-cost">От 4000 ₽</b>
             <a class="button product-card-button" href="#">подробнее</a>
             <button class="button product-card-button">в избранное</button>
-            <!--Звездочки вообще хз как делать, нид хелп-->
+            <div class="product-card-stars">
+            </div>
             <output class="rate-of-hotel">Рейтинг: 8,5</output>
           </li>
           <!--Еще 3 карточки, сделаю после корректировок-->
@@ -179,7 +190,7 @@
             <a class="pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">...</a>
+            <span class="pagination-link">...</span>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
