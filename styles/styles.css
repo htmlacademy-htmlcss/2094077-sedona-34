@@ -33,12 +33,12 @@ body {
 }
 
 .navigation-link {
-  color: #000000;
   text-decoration: none;
   text-transform: capitalize;
+  color: #000000;
 }
 
-/*Нужно ли добавлять черн*/
+/*Нужно ли добавлять черный цвет альт тексту лого седоны????????*/
 
 .button {
   font-size: 16px;
@@ -50,4 +50,70 @@ body {
 }
 
 /*main*/
-п
+
+.main-index {
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+/* как сделать задний фон index-background, обернуть в какой нибудь див ??????*/
+
+.introduction {
+  text-align: center;
+}
+
+.introduction-description {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.introduction-advantages {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages {
+  text-align: center;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  color: #333333;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.search {
+  text-align: center;
+}
+
+.search-block {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.search-section {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button-search-hotel {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
