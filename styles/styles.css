@@ -91,10 +91,6 @@ body {
   color: #333333;
 }
 
-.color-white {
-  color: #ffffff;
-}
-
 .search {
   text-align: center;
 }
@@ -109,6 +105,7 @@ body {
 .search-section {
   font-size: 22px;
   line-height: 26px;
+  color: #333333;
 }
 
 .button-search-hotel {
@@ -116,4 +113,14 @@ body {
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-newsletter {
+  text-align: center;
+  color: #ffffff;
+  background-image: url("../images/background-footer.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #000000;
 }
