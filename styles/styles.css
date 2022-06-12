@@ -1,3 +1,52 @@
-body {
-  background-color: tomato;
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
 }
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/*header*/
+
+.page-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.navigation-link {
+  color: #000000;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/*Нужно ли добавлять черн*/
+
+.button {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #756157;
+}
+
+/*main*/
