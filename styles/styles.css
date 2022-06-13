@@ -251,3 +251,28 @@ background-repeat: no-repeat;*/
   text-align: center;
   align-items: center;
 }
+
+.button-filter-reset {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.found-hotels-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.number-hostel {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.dropdown-item {
+  color: #333333;
+  text-decoration: none;
+}
