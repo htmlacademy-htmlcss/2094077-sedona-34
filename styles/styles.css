@@ -258,6 +258,8 @@ background-repeat: no-repeat;*/
   text-align: center;
 }
 
+/*catalog-main found-hotels*/
+
 .found-hotels-title {
   font-weight: 700;
   font-size: 30px;
@@ -272,7 +274,38 @@ background-repeat: no-repeat;*/
   text-transform: uppercase;
 }
 
+/*Почему 38 не становится нужного стиля???*/
+
 .dropdown-item {
   color: #333333;
   text-decoration: none;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.type-of-housing {
+  color: #333333;
+}
+
+.product-card-cost {
+  font-weight: 400;
+  color: #333333;
+}
+
+.product-card-button {
+  font-weight: 700;
+  text-decoration: none;
+  align-items: center;
+}
+
+.button-favourite {
+  font-family: "PT Sans", sans-serif;
 }
