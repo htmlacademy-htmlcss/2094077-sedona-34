@@ -24,7 +24,7 @@ body {
   background-color: #ffffff;
 }
 
-/*header*/
+/*index-header*/
 
 .page-header {
   font-weight: 700;
@@ -49,7 +49,7 @@ body {
   background: #756157;
 }
 
-/*main*/
+/*index-main*/
 
 .main-index {
   background-image: url("../images/index-background.jpg");
@@ -58,6 +58,8 @@ body {
 }
 
 /* как сделать задний фон index-background, обернуть в какой нибудь див ??????*/
+
+/*index-main introduction*/
 
 .introduction {
   text-align: center;
@@ -69,6 +71,10 @@ body {
   line-height: 36px;
   text-transform: uppercase;
 }
+
+/*index-main advantages*/
+
+/*как сделать преимущества попроще вообще не врубаю*/
 
 .introduction-advantages {
   font-size: 22px;
@@ -87,19 +93,54 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-list:nth-child(-n+2) {
+.advantages-item:nth-child(1) {
+  color: #ffffff;
   background-color: #82B3D3;
 }
 
-.advantages-list:nth-child(3) {
+.advantages-item:nth-child(2) {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.advantages-item:nth-child(3) {
+  color: #000000;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-/*
-.advantages-description {
+.advantages-item:nth-child(4) {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item:nth-child(5) {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-sub-item:nth-child(1) {
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.advantages-sub-item:nth-child(2) {
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.advantages-sub-item:nth-child(3) {
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-sub-item .advantages-title {
+  color: #000000;
+}
+
+.advantages-item:nth-child(-n+5):nth-child(n+3) .advantages-description {
   color: #333333;
 }
-*/
+
+/*index-main search*/
 
 .search {
   text-align: center;
@@ -126,11 +167,87 @@ body {
   text-decoration: none;
 }
 
+/*index-footer newsletter*/
+
 .footer-newsletter {
   text-align: center;
   color: #ffffff;
   background-image: url("../images/background-footer.jpg");
   background-size: 1200 411;
   background-repeat: no-repeat;
-  background-color: #000000;
+}
+
+.newsletter-email-subscribe {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.newsletter-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.newsletter-form-field {
+  background: #F2F2F2;
+}
+
+.newsletter-button {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  background: #82B3D3;
+}
+
+/*index-footer social-contacts-logo*/
+
+.footer-contacts-address-phone {
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+}
+
+/*catalog-main-header*/
+
+/*такой же фопрос по фоновому изображению, в див обернуть хлебные крошки и секцию с фильтром?
+background-image: url("../images/filter.jpg");
+background-size: 1200 403;
+background-repeat: no-repeat;*/
+
+/* добавлю когда пойму как делать фоновое изображение
+. {
+  color: #ffffff;
+}
+*/
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs {
+  font-size: 16px;
+}
+
+.filter-form-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+.button-filter {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
 }
