@@ -53,7 +53,7 @@ body {
 
 .main-index {
   background-image: url("../images/index-background.jpg");
-  background-size: 100% auto;
+  background-size: 1200 767;
   background-repeat: no-repeat;
 }
 
@@ -87,9 +87,15 @@ body {
   text-transform: uppercase;
 }
 
+.advantages-list:nth-child(1,2) {
+  background-color: #82B3D3;
+}
+
+/*
 .advantages-description {
   color: #333333;
 }
+*/
 
 .search {
   text-align: center;
@@ -120,7 +126,7 @@ body {
   text-align: center;
   color: #ffffff;
   background-image: url("../images/background-footer.jpg");
-  background-size: 100% auto;
+  background-size: 1200 411;
   background-repeat: no-repeat;
   background-color: #000000;
 }
