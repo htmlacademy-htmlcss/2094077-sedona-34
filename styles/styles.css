@@ -87,8 +87,12 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-list:nth-child(1,2) {
+.advantages-list:nth-child(-n+2) {
   background-color: #82B3D3;
+}
+
+.advantages-list:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.12);;
 }
 
 /*
