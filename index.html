@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -43,7 +44,7 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#"> <!--ссылка на модальное окно-->
+            <a class="navigation-link button" href="#"> <!--ссылка на модальное окно-->
               Хочу сюда!
             </a>
           </li>
@@ -67,16 +68,16 @@
             <p class="advantages-number">— №1 —</p>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img class="advantages-photo" src="images/photo-1.jpg" width="800" height="384" alt="Несколько двухэтажных местных зданий на фоне красной скалы. На переднем плане растительность. Выделяется наличие множества флагов, преимущественно государственный флаг Соединенных Штатов Америки.">
-            <ul>
-              <li class="advantages-item">
+            <ul class="advantages-sub-list">
+              <li class="advantages-sub-item">
                 <h4 class="advantages-title">Жильё</h4>
                 <p class="advantages-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
               </li>
-              <li class="advantages-item">
+              <li class="advantages-sub-item">
                 <h4 class="advantages-title">Еда</h4>
                 <p class="advantages-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
               </li>
-              <li class="advantages-item">
+              <li class="advantages-sub-item">
                 <h4 class="advantages-title">Сувениры</h4>
                 <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
               </li>
@@ -119,7 +120,7 @@
         <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="newsletter-email">Форма подписки на рассылку</label>
-          <input class="newsletter-form-field" type="email" name="newsletter-email" id="newsletter-email" placeholder="email@example.ru">
+          <input class="newsletter-form-field" type="email" name="newsletter-email" id="newsletter-email" placeholder="email@example.ru"> <!-- А туут в плэйсхолдере же надо указать "Ваш e-mail"?-->
           <button class="button newsletter-button" type="submit">
             Подписаться
           </button>

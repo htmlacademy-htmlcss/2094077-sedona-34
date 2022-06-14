@@ -1,0 +1,350 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/*index-header*/
+
+.page-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.navigation-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+/*Нужно ли добавлять черный цвет альт тексту лого седоны????????*/
+
+.button {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #756157;
+}
+
+/*index-main*/
+
+.main-index {
+  background-image: url("../images/index-background.jpg");
+  background-size: 1200 767;
+  background-repeat: no-repeat;
+}
+
+/* как сделать задний фон index-background, обернуть в какой нибудь див ??????*/
+
+/*index-main introduction*/
+
+.introduction {
+  text-align: center;
+}
+
+.introduction-description {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/*index-main advantages*/
+
+/*как сделать преимущества попроще вообще не врубаю*/
+
+.introduction-advantages {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages {
+  text-align: center;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-item:nth-child(1) {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.advantages-item:nth-child(2) {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.advantages-item:nth-child(3) {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item:nth-child(4) {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item:nth-child(5) {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-sub-item:nth-child(1) {
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.advantages-sub-item:nth-child(2) {
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.advantages-sub-item:nth-child(3) {
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-sub-item .advantages-title {
+  color: #000000;
+}
+
+.advantages-item:nth-child(-n+5):nth-child(n+3) .advantages-description {
+  color: #333333;
+}
+
+/*index-main search*/
+
+.search {
+  text-align: center;
+}
+
+.search-block {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.search-section {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.button-search-hotel {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/*index-footer newsletter*/
+
+.footer-newsletter {
+  text-align: center;
+  color: #ffffff;
+  background-image: url("../images/background-footer.jpg");
+  background-size: 1200 411;
+  background-repeat: no-repeat;
+}
+
+.newsletter-email-subscribe {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.newsletter-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.newsletter-form-field {
+  background: #F2F2F2;
+}
+
+.newsletter-button {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  background: #82B3D3;
+}
+
+/*index-footer social-contacts-logo*/
+
+.footer-contacts-address-phone {
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+}
+
+/*catalog-main-header*/
+
+/*такой же фопрос по фоновому изображению, в див обернуть хлебные крошки и секцию с фильтром?
+background-image: url("../images/filter.jpg");
+background-size: 1200 403;
+background-repeat: no-repeat;*/
+
+/* добавлю когда пойму как делать фоновое изображение
+. {
+  color: #ffffff;
+}
+*/
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs {
+  font-size: 16px;
+}
+
+.filter-form-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+.button-filter {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+}
+
+.button-filter-reset {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+/*catalog-main found-hotels*/
+
+.found-hotels-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.number-hostel {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/*Почему 38 не становится нужного стиля???*/
+
+.dropdown-item {
+  color: #333333;
+  text-decoration: none;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.type-of-housing {
+  color: #333333;
+}
+
+.product-card-cost {
+  font-weight: 400;
+  color: #333333;
+}
+
+.product-card-button {
+  font-weight: 700;
+  text-decoration: none;
+  align-items: center;
+}
+
+.button-favourite {
+  font-family: "PT Sans", sans-serif;
+  background: #82B3D3;
+}
+
+.rate-of-hotel {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+}
+
+.pagination {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pagination-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.hostels-at-list {
+  color: #333333;
+}
+
+.number-of-hostels {
+  color: #333333;
+}
+
+/*опять ццвет не применяется*/
