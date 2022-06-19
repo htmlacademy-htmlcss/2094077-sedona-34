@@ -54,6 +54,7 @@ body {
 .main-logo-container {
   background-image: url("../images/index-background.jpg");
   background-size: 1200 767;
+  background-color: #000000;
   background-repeat: no-repeat;
 }
 
