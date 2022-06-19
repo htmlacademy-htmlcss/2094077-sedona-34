@@ -51,13 +51,11 @@ body {
 
 /*index-main*/
 
-.main-index {
+.main-logo-container {
   background-image: url("../images/index-background.jpg");
   background-size: 1200 767;
   background-repeat: no-repeat;
 }
-
-/* как сделать задний фон index-background, обернуть в какой нибудь див ??????*/
 
 /*index-main introduction*/
 
@@ -73,8 +71,6 @@ body {
 }
 
 /*index-main advantages*/
-
-/*как сделать преимущества попроще вообще не врубаю*/
 
 .introduction-advantages {
   font-size: 22px;
@@ -274,8 +270,6 @@ background-repeat: no-repeat;*/
   text-transform: uppercase;
 }
 
-/*Почему 38 не становится нужного стиля???*/
-
 .dropdown-item {
   color: #333333;
   text-decoration: none;
@@ -346,5 +340,3 @@ background-repeat: no-repeat;*/
 .number-of-hostels {
   color: #333333;
 }
-
-/*опять ццвет не применяется*/
