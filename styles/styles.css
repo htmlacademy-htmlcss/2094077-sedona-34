@@ -38,8 +38,6 @@ body {
   color: #000000;
 }
 
-/*Нужно ли добавлять черный цвет альт тексту лого седоны????????*/
-
 .button {
   font-size: 16px;
   line-height: 20px;
@@ -90,6 +88,29 @@ body {
   text-transform: uppercase;
 }
 
+.advantages-item-blue {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.advantages-sub-list {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.advantages-item-lightgrey {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-grey {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.text-grey {
+  color: #333333;
+}
+/*заменаааааааааааааааа
+
 .advantages-item:nth-child(1) {
   color: #ffffff;
   background-color: #82B3D3;
@@ -136,6 +157,8 @@ body {
 .advantages-item:nth-child(-n+5):nth-child(n+3) .advantages-description {
   color: #333333;
 }
+
+конец замены*/
 
 /*index-main search*/
 
