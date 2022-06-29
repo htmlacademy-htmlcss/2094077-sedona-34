@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -30,18 +30,21 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #F2F2F2;
+}
+
+.body-container {
   width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
 }
 
 /*index-header*/
 
 .page-header {
-  width: 1200px;
   margin: 0 auto;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  background-color: #ffffff;
 }
 
 .navigation {
@@ -76,6 +79,10 @@ body {
   color: #000000;
 }
 
+.navigation-item {
+  list-style-type: none;
+}
+
 .button {
   font-size: 16px;
   line-height: 20px;
@@ -88,13 +95,12 @@ body {
 /*index-main*/
 
 .main-index {
-  width: 1200px;
   flex-grow: 1;
 }
 
 .main-logo-container {
   background-image: url("../images/index-background.jpg");
-  background-size: 1200 767;
+  background-size: 1200px 767px;
   background-color: #000000;
   background-repeat: no-repeat;
 }
@@ -108,7 +114,6 @@ body {
 
 .introduction {
   text-align: center;
-  background-color:#ffffff;
 }
 
 .introduction-description {
@@ -146,6 +151,7 @@ body {
 .advantages-item,
 .advantages-sub-item {
   width: 400px;
+  list-style-type: none;
 }
 
 .advantages-title,
@@ -187,7 +193,6 @@ body {
 
 .search {
   text-align: center;
-  background-color: #ffffff;
 }
 
 .search-block {
@@ -217,16 +222,11 @@ body {
 
 /*index-footer newsletter*/
 
-.page-footer {
-  width: 1200px;
-  background-color: #ffffff;
-}
-
 .footer-newsletter {
   text-align: center;
   color: #ffffff;
   background-image: url("../images/background-footer.jpg");
-  background-size: 1200 411;
+  background-size: 1200px 411px;
   background-repeat: no-repeat;
 }
 
@@ -257,14 +257,22 @@ body {
 /*index-footer social-contacts-logo*/
 
 .footer-list {
-  display:  flex;
+  display: flex;
   justify-content: space-between;
   width: 1060px;
   margin: 0 auto;
 }
 
+.footer-item {
+  list-style-type: none;
+}
+
 .footer-social-list {
   width: 142px;
+}
+
+.footer-social-item {
+  list-style-type: none;
 }
 
 .footer-item-address {
@@ -335,10 +343,6 @@ body {
 }
 
 /*catalog-main found-hotels*/
-
-.found-hotels {
-  background-color:#ffffff;
-}
 
 .found-hotels-title {
   font-weight: 700;
@@ -425,8 +429,11 @@ body {
   color: #333333;
 }
 
+.pagination {
+  display: flex;
+}
+
 .footer-newsletter-catalog {
-  background-color:#ffffff;
   text-align: center;
   color: #000000;
   background-size: 1200 411;
