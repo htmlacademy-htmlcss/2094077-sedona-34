@@ -14,22 +14,77 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+  background-color: #F2F2F2;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
   background-color: #ffffff;
 }
 
 /*index-header*/
 
 .page-header {
+  margin: 0 auto;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+}
+
+.navigation-container {
+  display: flex;
+  width: 1060px;
+  height: 65px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-list-1 .navigation-item:nth-child(1) {
+  padding-right: 34px;
+  padding-left: 47px;
+}
+
+.navigation-list-1 .navigation-item:nth-child(2) {
+  padding-right: 34px;
+}
+
+.navigation-logo {
+  display: block;
+  width: 139px;
+}
+
+.navigation-list-1 {
+  display: flex;
+  width: 580px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+}
+
+.navigation-list-2 {
+  display: flex;
+  width: 341px;
 }
 
 .navigation-link {
@@ -38,7 +93,9 @@ body {
   color: #000000;
 }
 
-/*Нужно ли добавлять черный цвет альт тексту лого седоны????????*/
+.navigation-item {
+  list-style-type: none;
+}
 
 .button {
   font-size: 16px;
@@ -52,12 +109,22 @@ body {
 /*index-main*/
 
 .main-index {
+  flex-grow: 1;
+}
+
+.main-logo-container {
+  padding-top: 51px;
+  padding-bottom: 82px;
   background-image: url("../images/index-background.jpg");
-  background-size: 1200 767;
+  background-size: 1200px 767px;
+  background-color: #000000;
   background-repeat: no-repeat;
 }
 
-/* как сделать задний фон index-background, обернуть в какой нибудь див ??????*/
+.main-logo {
+  display: block;
+  margin: 0 auto;
+}
 
 /*index-main introduction*/
 
@@ -66,6 +133,8 @@ body {
 }
 
 .introduction-description {
+  width: 620px;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -74,9 +143,9 @@ body {
 
 /*index-main advantages*/
 
-/*как сделать преимущества попроще вообще не врубаю*/
-
 .introduction-advantages {
+  width: 654px;
+  margin: 0 auto;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -86,6 +155,52 @@ body {
   text-align: center;
 }
 
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages-item {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.advantages-sub-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages-list,
+.advantages-sub-list,
+.advantages-title,
+.advantages-number,
+.advantages-description {
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 400px;
+  min-height: 384px;
+}
+
+.advantages-item,
+.advantages-sub-item {
+  list-style-type: none;
+}
+
+.advantages-title,
+.advantages-number,
+.advantages-description {
+  width: 230px;
+}
+
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
@@ -93,50 +208,25 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-item:nth-child(1) {
-  color: #ffffff;
-  background-color: #82B3D3;
-}
-
-.advantages-item:nth-child(2) {
-  color: #ffffff;
-  background-color: #82B3D3;
-}
-
-.advantages-item:nth-child(3) {
-  color: #000000;
+.advantages-item {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-item:nth-child(4) {
+.advantages-item-blue {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.advantages-sub-list {
   color: #000000;
+  background-color: #ffffff;
+}
+
+.advantages-item-grey {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-.advantages-item:nth-child(5) {
-  color: #000000;
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-sub-item:nth-child(1) {
-  color: #333333;
-  background-color: rgba(131, 179, 211, 0.12);
-}
-.advantages-sub-item:nth-child(2) {
-  color: #333333;
-  background-color: #FFFFFF;
-}
-
-.advantages-sub-item:nth-child(3) {
-  color: #333333;
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-sub-item .advantages-title {
-  color: #000000;
-}
-
-.advantages-item:nth-child(-n+5):nth-child(n+3) .advantages-description {
+.text-grey {
   color: #333333;
 }
 
@@ -147,6 +237,8 @@ body {
 }
 
 .search-block {
+  width: 297px;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -154,6 +246,8 @@ body {
 }
 
 .search-section {
+  width: 592px;
+  margin: 0 auto;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -170,10 +264,11 @@ body {
 /*index-footer newsletter*/
 
 .footer-newsletter {
+  padding: 94px 200px;
   text-align: center;
   color: #ffffff;
   background-image: url("../images/background-footer.jpg");
-  background-size: 1200 411;
+  background-size: 1200px 411px;
   background-repeat: no-repeat;
 }
 
@@ -203,7 +298,40 @@ body {
 
 /*index-footer social-contacts-logo*/
 
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footer-item {
+  list-style-type: none;
+}
+
+.footer-social-list {
+  width: 142px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.footer-social-item {
+  list-style-type: none;
+}
+
+.footer-item-address {
+  width: 720px;
+}
+
+.footer-logo {
+  display: block;
+  width: 114,9px;
+}
+
 .footer-contacts-address-phone {
+  display: block;
   font-style: normal;
   text-decoration: none;
   text-align: center;
@@ -214,16 +342,18 @@ body {
 
 /*catalog-main-header*/
 
-/*такой же фопрос по фоновому изображению, в див обернуть хлебные крошки и секцию с фильтром?
-background-image: url("../images/filter.jpg");
-background-size: 1200 403;
-background-repeat: no-repeat;*/
-
-/* добавлю когда пойму как делать фоновое изображение
-. {
-  color: #ffffff;
+.main-catalog {
+  flex-grow: 1;
 }
-*/
+
+.filter-container {
+  padding: 35px 70px 70px;
+  color: #ffffff;
+  background-image: url("../images/filter.jpg");
+  background-color: #756157;
+  background-size: 1200px 403px;
+  background-repeat: no-repeat;
+}
 
 .inner-header-title {
   font-size: 60px;
@@ -231,7 +361,18 @@ background-repeat: no-repeat;*/
 }
 
 .breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 16px;
+}
+
+.breadcrumbs-item {
+  list-style-type: none;
+}
+
+.filter-form {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .filter-form-title {
@@ -239,6 +380,10 @@ background-repeat: no-repeat;*/
   font-size: 20px;
   line-height: 26px;
   text-transform: capitalize;
+}
+
+.filter-form-item {
+  list-style-type: none;
 }
 
 .button-filter {
@@ -274,11 +419,23 @@ background-repeat: no-repeat;*/
   text-transform: uppercase;
 }
 
-/*Почему 38 не становится нужного стиля???*/
-
 .dropdown-item {
   color: #333333;
   text-decoration: none;
+}
+
+.product-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1056px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.product-card {
+  list-style-type: none;
+  width: 340px;
 }
 
 .product-card-link {
@@ -328,6 +485,10 @@ background-repeat: no-repeat;*/
   text-transform: uppercase;
 }
 
+.pagination-item {
+  list-style-type: none;
+}
+
 .pagination-link {
   text-decoration: none;
   color: #FFFFFF;
@@ -347,4 +508,25 @@ background-repeat: no-repeat;*/
   color: #333333;
 }
 
-/*опять ццвет не применяется*/
+.pagination {
+  display: flex;
+}
+
+.footer-newsletter-catalog {
+  padding: 94px 200px;
+  text-align: center;
+  color: #000000;
+  background-size: 1200px 411px;
+}
+
+
+
+/*
+.visually-hidden {
+  display: none;
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
+*/
