@@ -126,6 +126,12 @@ body {
   background: #756157;
 }
 
+.button-navigation {
+  min-width: 130px;
+  padding: 9px 15px 8px 15px;
+  border-radius: 4px;
+}
+
 /*index-main*/
 
 .main-index {
@@ -560,15 +566,3 @@ body {
   color: #000000;
   background-size: 1200px 411px;
 }
-
-
-
-/*
-.visually-hidden {
-  display: none;
-}
-
-.visually-hidden {
-  visibility: hidden;
-}
-*/
