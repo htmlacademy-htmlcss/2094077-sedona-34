@@ -525,6 +525,7 @@ body {
 }
 
 .pagination {
+  display: flex;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -534,13 +535,22 @@ body {
 }
 
 .pagination-item {
+  display: block;
   list-style-type: none;
 }
 
 .pagination-link {
+  display: block;
+  margin-right: 8px;
+  padding-top: 12px;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
   text-decoration: none;
   color: #FFFFFF;
   background-color: #82B3D3;
+  border-radius: 4px;
+  text-decoration: none;
 }
 
 .pagination-current {
@@ -554,10 +564,6 @@ body {
 
 .number-of-hostels {
   color: #333333;
-}
-
-.pagination {
-  display: flex;
 }
 
 .footer-newsletter-catalog {
