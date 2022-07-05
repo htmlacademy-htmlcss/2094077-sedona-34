@@ -515,6 +515,10 @@ body {
 /*catalog-main found-hotels*/
 
 .found-hotels-title {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-left: 72px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -539,7 +543,6 @@ body {
   justify-content: space-between;
   width: 1056px;
   margin: 0 auto;
-  padding: 0;
 }
 
 .product-card {
