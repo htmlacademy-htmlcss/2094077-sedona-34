@@ -141,25 +141,27 @@
           </section>
         </div>
         <section class="found-hotels">
-          <h2 class="found-hotels-title">Найдено гостиниц:</h2>
-          <span class="number-hostel">38</span>
-          <details class="dropdown">
-            <summary class="button-dropdown">Сортировка</summary>
-            <div class="dropdown-menu-show">
-              <a class="dropdown-item" href="#">Сначала дешёвое</a>
-              <a class="dropdown-item" href="#">Сначала дорогое</a>
-              <a class="dropdown-item" href="#">Сначала популярное</a>
-            </div>
-          </details>
-          <a class="button-list-view" href="#">
-            <span class="visually-hidden">Показать таблицей</span>
-          </a>
-          <a class="button-list-view" href="#">
-            <span class="visually-hidden">Показать слайдером</span>
-          </a>
-          <a class="button-list-view" href="#">
-            <span class="visually-hidden">Показать списком</span>
-          </a>
+          <div class="sorting-container">
+            <h2 class="found-hotels-title">Найдено гостиниц:</h2>
+            <span class="number-hostel">38</span>
+            <details class="dropdown">
+              <summary class="button-dropdown">Сортировка</summary>
+              <div class="dropdown-menu-show">
+                <a class="dropdown-item" href="#">Сначала дешёвое</a>
+                <a class="dropdown-item" href="#">Сначала дорогое</a>
+                <a class="dropdown-item" href="#">Сначала популярное</a>
+              </div>
+            </details>
+            <a class="button-list-view" href="#">
+              <span class="visually-hidden">Показать таблицей</span>
+            </a>
+            <a class="button-list-view" href="#">
+              <span class="visually-hidden">Показать слайдером</span>
+            </a>
+            <a class="button-list-view" href="#">
+              <span class="visually-hidden">Показать списком</span>
+            </a>
+          </div>
           <ul class="product-card-list">
             <li class="product-card">
               <a class="product-card-link" href="#">
@@ -182,7 +184,7 @@
               <p class="type-of-housing">Гостиница</p>
               <b class="product-card-cost">От 5000 ₽</b>
               <a class="button product-card-button" href="#">подробнее</a>
-              <button class="button product-card-button button-favourite">в избранном</button>
+              <button class="button product-card-button button-favourite button-favourite-current">в избранном</button>
               <div class="product-card-stars"></div>
               <span class="rate-of-hotel">Рейтинг: 9,2</span>
             </li>
@@ -211,28 +213,32 @@
               <span class="rate-of-hotel">Рейтинг: 5,0</span>
             </li>
           </ul>
-          <ul class="pagination">
-            <li class="pagination-item">
-              <a class="pagination-link pagination-current">1</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">2</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">3</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">4</a>
-            </li>
-            <li class="pagination-item">
-              <span class="pagination-link">...</span>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">10</a>
-            </li>
-          </ul>
-          <p class="hostels-at-list">Гостиниц на странице:</p>
-          <output class="number-of-hostels">4</output>
+          <div class="pagination-container">
+            <ul class="pagination">
+              <li class="pagination-item">
+                <a class="pagination-link pagination-current">1</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">2</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">3</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">4</a>
+              </li>
+              <li class="pagination-item">
+                <span class="pagination-link">...</span>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">10</a>
+              </li>
+            </ul>
+            <div class="number-of-hostels-container">
+              <p class="hostels-at-list">Гостиниц на странице:</p>
+              <output class="number-of-hostels">4</output>
+            </div>
+          </div>
         </section>
       </main>
       <!--Начало футера-->

@@ -94,6 +94,7 @@ body {
 .navigation-list-2 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
   width: 341px;
 }
 
@@ -407,7 +408,7 @@ body {
   background-color: #000000;
   background-size: 1200px 403px;
   background-repeat: no-repeat;
-  margin-bottom: 60px;
+  margin-bottom: 55px;
 }
 
 .inner-header-title {
@@ -514,11 +515,17 @@ body {
 
 /*catalog-main found-hotels*/
 
+.sorting-container {
+  display: flex;
+  align-items: center;
+  width: 1056px;
+  min-height: 49px;
+  margin: 0 auto 57px;
+}
+
 .found-hotels-title {
-  display: inline-block;
   margin: 0;
   padding: 0;
-  margin-left: 72px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -532,9 +539,18 @@ body {
   text-transform: uppercase;
 }
 
+.dropdown {
+  width: 290px;
+}
+
 .dropdown-item {
   color: #333333;
   text-decoration: none;
+}
+
+.button-list-view {
+  width: 48px;
+  height: 48px;
 }
 
 .product-card-list {
@@ -543,24 +559,37 @@ body {
   justify-content: space-between;
   width: 1056px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .product-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 16px;
+  column-gap: 20px;
   list-style-type: none;
-  width: 340px;
+  padding: 20px;
+  width: 300px;
 }
 
 .product-card-link {
   text-decoration: none;
+  grid-column: span 2;
+}
+
+.product-card-image {
+  margin-bottom: 16px;
 }
 
 .product-card-title {
   font-size: 24px;
   line-height: 28px;
+  margin: 0;
   color: #000000;
 }
 
 .type-of-housing {
+  margin: 0;
   color: #333333;
 }
 
@@ -572,7 +601,9 @@ body {
 .product-card-button {
   font-weight: 700;
   text-decoration: none;
-  align-items: center;
+  padding: 9px 15px 8px;
+  border-radius: 4px;
+  border-style: none;
 }
 
 .button-favourite {
@@ -580,12 +611,26 @@ body {
   background: #82B3D3;
 }
 
+.button-favourite-current {
+  background: #7DB54F;
+}
+
 .rate-of-hotel {
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  padding: 9px 22px 8px 23px;
   background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1056px;;
+  height: 60px;
+  margin: 0 auto;
 }
 
 .pagination {
@@ -593,6 +638,8 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  margin: 0;
+  padding: 0;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
@@ -621,7 +668,14 @@ body {
   background-color: #F2F2F2;
 }
 
+.number-of-hostels-container {
+  display: flex;
+  justify-content: space-between;
+  width: 386px;
+}
+
 .hostels-at-list {
+  margin: 0;
   color: #333333;
 }
 
