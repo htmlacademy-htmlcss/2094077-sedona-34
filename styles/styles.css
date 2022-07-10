@@ -82,7 +82,13 @@ body {
 .navigation-logo {
   display: block;
   width: 139px;
-  padding-right: 47px;
+  margin-right: 47px;
+}
+
+.navigation-logo-link {
+  display: block;
+  height: 65px;
+  position: relative;
 }
 
 .navigation-list-1 {
@@ -109,15 +115,6 @@ body {
 .navigation-list-1 .navigation-link {
   padding-top: 20px;
   padding-bottom: 19px;
-}
-
-.navigation-icon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
 }
 
 .navigation-link-search {
@@ -166,8 +163,9 @@ body {
   padding-top: 51px;
   padding-bottom: 82px;
   margin-bottom: 63px;
+  line-height: 0;
   background-image: url("../images/index-background.jpg");
-  background-size: 1200px 767px;
+  background-size: 1200px 485px;
   background-color: #000000;
   background-repeat: no-repeat;
 }
