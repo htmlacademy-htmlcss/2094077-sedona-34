@@ -114,6 +114,19 @@ body {
   margin: 14px 0;
 }
 
+.navigation-list-2 .navigation-item:nth-child(1) {
+  background-image:url('../images/search.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation-list-2 .navigation-item:nth-child(2) {
+  margin-right: 20px;
+  background-image:url('../images/favorite.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .navigation-item {
   list-style-type: none;
   min-width: 50px;
@@ -220,6 +233,26 @@ body {
   gap: 30px;
   width: 400px;
   min-height: 384px;
+}
+
+.svg-container {
+  width: 75px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-position: center;
+  order: -1;
+}
+
+.svg-container-house {
+  background-image:url('../images/house.svg');
+}
+
+.svg-container-food {
+  background-image:url('../images/food.svg');
+}
+
+.svg-container-gift {
+  background-image:url('../images/gift.svg');
 }
 
 .bridge {
