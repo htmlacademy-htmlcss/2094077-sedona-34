@@ -742,6 +742,30 @@ body {
   color: #333333;
 }
 
+.product-card-stars[data-stars="2"] {
+  background-image: url('../images/star.svg');
+  background-repeat: space no-repeat;
+  background-position: left center;
+  background-size: 18px 17px;
+  width: 42px;
+}
+
+.product-card-stars[data-stars="3"] {
+  background-image: url('../images/star.svg');
+  background-repeat: space no-repeat;
+  background-position: left center;
+  background-size: 18px 17px;
+  width: 66px;
+}
+
+.product-card-stars[data-stars="4"] {
+  background-image: url('../images/star.svg');
+  background-repeat: space no-repeat;
+  background-position: left center;
+  background-size: 18px 17px;
+  width: 89px;
+}
+
 .product-card-button {
   font-weight: 700;
   text-decoration: none;
