@@ -878,20 +878,28 @@ body {
   margin: auto;
   padding: 54px 70px 70px 70px;
   background-color: #ffffff;
-  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
-}
-
-.modal-auth {
   width: 715px;
+  box-sizing: border-box;
 }
 
 .modal-title {
+  margin: 0;
+  padding: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+}
+
+.modal-section-title {
+  display: flex;
+  width: 575px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 54px;
 }
 
 .modal-close-button {
@@ -910,4 +918,16 @@ body {
   bottom: 0;
   left: 0;
   margin: auto;
+}
+
+.modal-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.modal-list-item {
+  display: flex;
 }

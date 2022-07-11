@@ -203,7 +203,7 @@
     </div>
     <div class="modal-container">
       <div class="modal modal-auth">
-        <section class="">
+        <section class="modal-section-title">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <button class="modal-close-button">
             <span class="visually-hidden">Закрыть</span>
@@ -213,7 +213,27 @@
           </button>
         </section>
         <section class="modal-content">
-
+          <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
+            <ul class="modal-list">
+              <li class="modal-list-item">
+                <label class="modal-form-title" for="arrival-date">Дата заезда:</label>
+                <input class="" type="date" name="date-in" value="2020-04-27" id="arrival-date">
+              </li>
+              <li class="modal-list-item">
+                <label class="modal-form-title" for="departure-date">Дата выезда:</label>
+                <input class="" type="date" name="date-off" value="2021-09-01" id="departure-date">
+              </li>
+              <li class="modal-list-item">
+                <label class="modal-form-title" for="number-of-adult">Взрослые:</label>
+                <input class="" type="number" name="number-adult" value="2" id="number-of-adult">
+              </li>
+              <li class="modal-list-item">
+                <label class="modal-form-title" for="number-of-child">Дети:</label>
+                <input class="" type="number" name="number-child" value="1" id="number-of-child">
+              </li>
+            </ul>
+            <button class="modal-button">Найти</button>
+          </form>
         </section>
       </div>
     </div>
