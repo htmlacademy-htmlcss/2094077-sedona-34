@@ -182,7 +182,6 @@ body {
 }
 
 .introduction-description {
-  width: 620px;
   margin: 0 auto;
   margin-bottom: 31px;
   font-weight: 700;
@@ -194,7 +193,6 @@ body {
 /*index-main advantages*/
 
 .introduction-advantages {
-  width: 654px;
   margin: 0 auto;
   margin-bottom: 90px;
   font-size: 22px;
