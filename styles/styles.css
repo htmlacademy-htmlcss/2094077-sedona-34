@@ -812,6 +812,7 @@ body {
 
 .number-of-hostels-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 386px;
 }
@@ -821,8 +822,12 @@ body {
   color: #333333;
 }
 
-.number-of-hostels {
-  color: #333333;
+.hostels-at-list-dropdown {
+  width: 160px;
+  box-sizing: border-box;
+  padding: 12px 21px 12px 20px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
 }
 
 .footer-newsletter-catalog {
