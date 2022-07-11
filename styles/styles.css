@@ -127,7 +127,7 @@ body {
 
 .navigation-link-favourite {
   min-height: 65px;
-  margin-right: 20px;
+  margin-right: 27px;
   background-image: url('../images/favorite.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -149,7 +149,7 @@ body {
 
 .navigation-item {
   list-style-type: none;
-  min-width: 50px;
+  min-width: 53px;
 }
 
 .button {
@@ -177,7 +177,7 @@ body {
 .main-logo-container {
   padding-top: 51px;
   padding-bottom: 82px;
-  margin-bottom: 63px;
+  margin-bottom: 59px;
   line-height: 0;
   background-image:url('../images/mask.svg'), url('../images/index-background.jpg');
   background-color: #426a96;
@@ -605,12 +605,13 @@ body {
   align-items: center;
   width: 1056px;
   min-height: 49px;
-  margin: 0 auto 57px;
+  margin: 0 auto 56px;
 }
 
 .found-hotels-title {
   margin: 0;
   padding: 0;
+  margin-right: 8px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -618,6 +619,7 @@ body {
 }
 
 .number-hostel {
+  margin-right: auto;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -626,9 +628,17 @@ body {
 
 .dropdown {
   width: 290px;
+  box-sizing: border-box;
+  margin-right: 78px;
+  padding: 14px 21px 14px 20px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
 }
 
 .button-dropdown {
+  background-image: url('../images/arrow-down.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
   list-style: none;
   cursor: pointer;
 }
@@ -650,6 +660,39 @@ body {
 .button-list-view {
   width: 48px;
   height: 48px;
+  margin-right: 8px;
+  box-sizing: border-box;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.button-list-view-current {
+  border: 2px solid #000000;
+}
+
+.button-list-view:last-child {
+  margin-right: 0;
+}
+
+.button-list-view-table {
+  background-image: url("../images/icon-table.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  order: 1;
+}
+
+.button-list-view-slideshow {
+  background-image: url("../images/icon-slideshow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  order: 2;
+}
+
+.button-list-view-list {
+  background-image: url("../images/icon-list.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  order: 3;
 }
 
 .product-card-list {
