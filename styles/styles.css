@@ -184,6 +184,7 @@ body {
 .introduction-description {
   margin: 0 auto;
   margin-bottom: 31px;
+  padding: 0 30px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -195,6 +196,7 @@ body {
 .introduction-advantages {
   margin: 0 auto;
   margin-bottom: 90px;
+  padding: 0 30px;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -272,7 +274,7 @@ body {
 .advantages-title,
 .advantages-number,
 .advantages-description {
-  width: 230px;
+  padding: 0 30px;
 }
 
 .advantages-title {
