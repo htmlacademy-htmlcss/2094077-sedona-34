@@ -217,19 +217,21 @@
             <ul class="modal-list">
               <li class="modal-list-item">
                 <label class="modal-form-title" for="arrival-date">Дата заезда:</label>
-                <input class="" type="date" name="date-in" value="2020-04-27" id="arrival-date">
+                <input class="modal-input" type="date" name="date-in" value="2020-04-27" id="arrival-date">
+                <p class="modal-attention">Мы не можем отправить вас в прошлое.</p>
               </li>
               <li class="modal-list-item">
                 <label class="modal-form-title" for="departure-date">Дата выезда:</label>
-                <input class="" type="date" name="date-off" value="2021-09-01" id="departure-date">
+                <input class="modal-input" type="date" name="date-off" value="2021-09-01" id="departure-date">
+                <p class="modal-attention modal-consideration">На эти даты есть свободные номера. Пока есть.</p>
               </li>
               <li class="modal-list-item">
                 <label class="modal-form-title" for="number-of-adult">Взрослые:</label>
-                <input class="" type="number" name="number-adult" value="2" id="number-of-adult">
+                <input class="modal-input modal-input-number" type="number" name="number-adult" value="2" id="number-of-adult">
               </li>
               <li class="modal-list-item">
-                <label class="modal-form-title" for="number-of-child">Дети:</label>
-                <input class="" type="number" name="number-child" value="1" id="number-of-child">
+                <label class="modal-form-title modal-form-title-child" for="number-of-child">Дети:</label>
+                <input class="modal-input modal-input-number" type="number" name="number-child" value="1" id="number-of-child">
               </li>
             </ul>
             <button class="modal-button">Найти</button>
