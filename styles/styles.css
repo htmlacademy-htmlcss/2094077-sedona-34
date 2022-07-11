@@ -165,7 +165,7 @@ body {
   margin-bottom: 63px;
   line-height: 0;
   background-image:url('../images/mask.svg'), url('../images/index-background.jpg');
-  background-color: #000000;
+  background-color: #426a96;
   background-repeat: no-repeat;
   background-position: center bottom;
 }
@@ -252,14 +252,20 @@ body {
 
 .svg-container-house {
   background-image:url('../images/house.svg');
+  width: 75px;
+  height: 72px;
 }
 
 .svg-container-food {
   background-image:url('../images/food.svg');
+  width: 74px;
+  height: 70px;
 }
 
 .svg-container-gift {
   background-image:url('../images/gift.svg');
+  width: 64px;
+  height: 76px;
 }
 
 .bridge {
@@ -353,6 +359,7 @@ body {
   color: #ffffff;
   background-image: url("../images/background-footer.jpg");
   background-size: 1200px 411px;
+  background-color: #426a96;
   background-repeat: no-repeat;
 }
 
@@ -420,14 +427,27 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
+
 }
 
 .footer-social-item {
+  position: relative;
   list-style-type: none;
+  width: 47px;
+  min-height: 40px;
 }
 
 .social-button {
-  min-width: 47px;
+
+}
+
+.footer-social-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .footer-item-address {
@@ -459,7 +479,7 @@ body {
   padding: 35px 70px 70px;
   color: #ffffff;
   background-image: url("../images/filter.jpg");
-  background-color: #437fd9;
+  background-color: #426a96;
   background-size: 1200px 403px;
   background-repeat: no-repeat;
   margin-bottom: 55px;
