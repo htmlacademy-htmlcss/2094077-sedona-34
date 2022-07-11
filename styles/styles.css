@@ -313,9 +313,9 @@ body {
 }
 
 .search-block {
-  width: 297px;
   margin: 0 auto;
   margin-bottom: 29px;
+  padding: 0 30px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -323,9 +323,9 @@ body {
 }
 
 .search-section {
-  width: 592px;
   margin: 0 auto;
   margin-bottom: 56px;
+  padding: 0 30px;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -372,11 +372,17 @@ body {
   line-height: 26px;
 }
 
+.newsletter-form {
+  display: flex;
+}
+
 .newsletter-form-field {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  width: 491px;
+  width: 600px;
+  border-radius: 10px 0 0 10px;
+  border-style: none;
   background: #F2F2F2;
 }
 
@@ -385,6 +391,10 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  padding: 12px 15px;
+  width: 200px;
+  border-radius: 0 10px 10px 0;
+  border-style: none;
   background: #82B3D3;
 }
 
