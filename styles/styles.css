@@ -701,7 +701,8 @@ body {
   justify-content: space-between;
   width: 1056px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0 66px 0;
+  border-bottom: 1px solid #E6E6E6;;
 }
 
 .product-card {
@@ -772,7 +773,7 @@ body {
   justify-content: space-between;
   width: 1056px;;
   height: 60px;
-  margin: 0 auto;
+  margin: 30px auto 25px;
 }
 
 .pagination {
