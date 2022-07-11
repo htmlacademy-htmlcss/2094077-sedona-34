@@ -164,10 +164,10 @@ body {
   padding-bottom: 82px;
   margin-bottom: 63px;
   line-height: 0;
-  background-image: url("../images/index-background.jpg");
-  background-size: 1200px 485px;
+  background-image:url('../images/mask.svg'), url('../images/index-background.jpg');
   background-color: #000000;
   background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 .main-logo {
