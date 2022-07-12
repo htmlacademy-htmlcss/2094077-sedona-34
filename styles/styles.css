@@ -180,18 +180,22 @@ body {
 .button-navigation:hover,
 .button-navigation:focus,
 .button-search-hotel:hover,
-.button-search-hotel:focus {
+.button-search-hotel:focus,
+.product-card-button:hover,
+.product-card-button:focus {
   background-color: #615048;
 }
 
 .button-navigation:active,
-.button-search-hotel:active {
+.button-search-hotel:active,
+.product-card-button:active {
   color:rgba(255, 255, 255, 0.3);
   background-color: #756157;
 }
 
 .button-navigation:disabled,
-.button-search-hotel:disabled {
+.button-search-hotel:disabled,
+.product-card-button:disabled {
   background-color: #E5E5E5;
 }
 
@@ -447,6 +451,19 @@ body {
   background: #82B3D3;
 }
 
+.newsletter-button:hover,
+.newsletter-button:focus {
+  background-color: #68A2CA;
+}
+
+.newsletter-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #82B3D3;
+}
+
+.newsletter-button:disabled {
+  background-color: #E5E5E5;
+}
 /*index-footer social-contacts-logo*/
 
 .footer-list {
@@ -487,11 +504,6 @@ body {
   left: 0;
   margin: auto;
 }
-
-/* .footer-social-icon:hover,
-.footer-social-icon:focus                                     {
-  fill: #68A2CA;
-} */
 
 .footer-item-address {
   width: 720px;
