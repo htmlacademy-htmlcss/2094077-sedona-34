@@ -85,7 +85,7 @@
                   <li class="filter-form-item">
                     <input class="visually-hidden filter-form-infrastructure-button" type="checkbox" name="pool" id="button-checkbox-pool" checked>
                     <span class="control-mark">
-                      <svg class="icon-checkbox" width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg class="icon-checkbox" aria-hidden="true" focusable="false" width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.05 0 4.53 7.4 1.12 3.5.02 4.7l4.5 5.2 7.73-8.6-1.2-1.3Z" fill="#3F5E72"/>
                       </svg>
                     </span>
@@ -94,7 +94,7 @@
                   <li class="filter-form-item">
                     <input class="visually-hidden filter-form-infrastructure-button" type="checkbox" name="parking" id="button-checkbox-parking" checked>
                     <span class="control-mark">
-                      <svg class="icon-checkbox" width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg class="icon-checkbox" aria-hidden="true" focusable="false" width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.05 0 4.53 7.4 1.12 3.5.02 4.7l4.5 5.2 7.73-8.6-1.2-1.3Z" fill="#3F5E72"/>
                       </svg>
                     </span>
@@ -102,7 +102,8 @@
                   </li>
                   <li class="filter-form-item">
                     <input class="visually-hidden filter-form-infrastructure-button" type="checkbox" name="wi-fi" id="button-checkbox-wi-fi">
-                    <span class="control-mark"></span>
+                    <span class="control-mark">
+                    </span>
                     <label class="control" for="button-checkbox-wi-fi">Wi-fi</label>
                   </li>
                 </ul>
@@ -113,16 +114,25 @@
                 </legend>
                 <ul class="filter-form-list">
                   <li class="filter-form-item">
-                    <input class="filter-form-housing-button" type="radio" name="type-of-housing" value="hotel" id="button-radio-hotel" checked>
-                    <label for="button-radio-hotel">Гостиница</label>
+                    <input class="visually-hidden filter-form-housing-button" type="radio" name="type-of-housing" value="hotel" id="button-radio-hotel" checked>
+                    <span class="control-mark-radio">
+                      <svg class="icon-radio" width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 5a5 5 0 1 1 10 0A5 5 0 0 1 0 5Z" fill="#000"/>
+                      </svg>
+                    </span>
+                    <label class="control" for="button-radio-hotel">Гостиница</label>
                   </li>
                   <li class="filter-form-item">
-                    <input class="filter-form-housing-button" type="radio" name="type-of-housing" value="motel" id="button-radio-motel">
-                    <label for="button-radio-motel">Мотель</label>
+                    <input class="visually-hidden filter-form-housing-button" type="radio" name="type-of-housing" value="motel" id="button-radio-motel">
+                    <span class="control-mark-radio">
+                    </span>
+                    <label class="control" for="button-radio-motel">Мотель</label>
                   </li>
                   <li class="filter-form-item">
-                    <input class="filter-form-housing-button" type="radio" name="type-of-housing" value="appartments" id="button-radio-appartments">
-                    <label for="button-radio-appartments">Аппартаменты</label>
+                    <input class="visually-hidden filter-form-housing-button" type="radio" name="type-of-housing" value="appartments" id="button-radio-appartments">
+                    <span class="control-mark-radio">
+                    </span>
+                    <label class="control" for="button-radio-appartments">Апартаменты</label>
                   </li>
                 </ul>
               </fieldset>

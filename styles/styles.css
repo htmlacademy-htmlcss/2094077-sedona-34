@@ -578,8 +578,20 @@ body {
 }
 
 .filter-form-housing {
-  margin-right: 175px;
+  margin-right: 174px;
   min-width: 147px;
+}
+
+.control-mark-radio {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.icon-radio {
+  margin: 5px 5px;
 }
 
 .filter-form-cost {
@@ -709,7 +721,7 @@ body {
   align-items: center;
   width: 1056px;
   min-height: 49px;
-  margin: 0 auto 56px;
+  margin: 0 auto 52px;
 }
 
 .found-hotels-title {
