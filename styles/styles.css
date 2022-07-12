@@ -1343,6 +1343,7 @@ body {
   right: 101px;
   box-sizing: border-box;
   border-style: none;
+  cursor: pointer;
 }
 
 .plus {
@@ -1356,6 +1357,7 @@ body {
   right: 19px;
   box-sizing: border-box;
   border-style: none;
+  cursor: pointer;
 }
 
 .minus-child {
@@ -1369,6 +1371,7 @@ body {
   right: 101px;
   box-sizing: border-box;
   border-style: none;
+  cursor: pointer;
 }
 
 .plus-child {
@@ -1382,7 +1385,15 @@ body {
   right: 19px;
   box-sizing: border-box;
   border-style: none;
+  cursor: pointer;
 }
+
+.modal-input-number::-webkit-outer-spin-button,
+.modal-input-number::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
 /* .modal-container-close {
   display: none;
 } */
