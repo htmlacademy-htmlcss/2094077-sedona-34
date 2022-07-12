@@ -453,16 +453,20 @@ body {
 }
 
 .newsletter-button:hover,
-.newsletter-button:focus {
+.newsletter-button:focus,
+.button-filter:hover,
+.button-filter:focus {
   background-color: #68A2CA;
 }
 
-.newsletter-button:active {
+.newsletter-button:active
+.button-filter:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #82B3D3;
 }
 
-.newsletter-button:disabled {
+.newsletter-button:disabled
+.button-filter:disabled {
   background-color: #E5E5E5;
 }
 /*index-footer social-contacts-logo*/
