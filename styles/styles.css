@@ -503,6 +503,7 @@ body {
 
 .inner-header-title {
   margin: 0;
+  margin-bottom: 10px;
   font-size: 60px;
   line-height: 78px;
 }
@@ -557,12 +558,35 @@ body {
 
 .filter-form-housing {
   margin-right: 175px;
-  min-width: 149px;
+  min-width: 147px;
 }
 
 .filter-form-cost {
   margin-right: 70px;
   min-width: 280px;
+}
+
+.filter-form-item-cost {
+  display: flex;
+  width: 288px;
+}
+
+.filter-form-cost-min {
+  width: 144px;
+  padding: 14px 19px 13px 19px;
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  border: 2px solid #FFFFFF;
+}
+
+.filter-form-cost-max {
+  width: 144px;
+  padding: 14px 17px 13px 17px;
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  border: 2px solid #FFFFFF;
 }
 
 .filter-form-item {

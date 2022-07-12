@@ -120,9 +120,11 @@
                   Стоимость, ₽:
                 </legend>
                 <ul class="filter-form-list">
-                  <li class="filter-form-item">
-                    <output name="cost-min">0</output>
-                    <output name="cost-max">9000</output>
+                  <li class="filter-form-item filter-form-item-cost">
+                    <label class="visually-hidden" for="cost-min">Нижний порог стоимости</label>
+                    <input class="filter-form-cost-min" type="number" name="cost-min" id="cost-min" placeholder="0">
+                    <label class="visually-hidden" for="cost-mфч">Верхний порог стоимости</label>
+                    <input class="filter-form-cost-max" type="number" name="cost-max" id="cost-max" placeholder="9000">
                   </li>
                   <li class="filter-form-item">
                     <label class="visually-hidden" for="slider">Ползунок выбора цены</label>
