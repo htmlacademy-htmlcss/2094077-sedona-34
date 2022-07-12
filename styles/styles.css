@@ -1264,6 +1264,7 @@ body {
 }
 
 .modal-form-title-child {
+  position: relative;
   width: 97px;
   margin-left: 56px;
 }
@@ -1317,6 +1318,19 @@ body {
   text-transform: uppercase;
 }
 
-.modal-container-close {
-  display: none;
+.information {
+  position:absolute;
+  width:25px;
+  height: 25px;
+  right: 18px;
+  color: #ffffff;
+  background-image: url('../images/info.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #83B3D3;
+  border-radius: 50%;
 }
+
+/* .modal-container-close {
+  display: none;
+} */
