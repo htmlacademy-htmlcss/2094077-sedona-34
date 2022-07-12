@@ -173,6 +173,23 @@ body {
   margin: 14px 0;
 }
 
+.navigation-link:hover {
+  background-color: #cccccc;
+}
+
+.button-navigation:hover,
+.button-navigation:focus {
+  background-color: #615048;
+}
+
+.button-navigation:active {
+  background-color: #756157;
+}
+
+.button-navigation:disabled {
+  background-color: #E5E5E5;
+}
+
 /*index-main*/
 
 .main-index {
@@ -465,6 +482,11 @@ body {
   left: 0;
   margin: auto;
 }
+
+/* .footer-social-icon:hover,
+.footer-social-icon:focus                                     {
+  fill: #68A2CA;
+} */
 
 .footer-item-address {
   width: 720px;
