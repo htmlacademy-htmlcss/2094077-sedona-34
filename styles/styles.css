@@ -492,7 +492,7 @@ body {
 }
 
 .filter-container {
-  padding: 35px 70px 70px;
+  padding: 35px 70px 68px;
   color: #ffffff;
   background-image: url("../images/filter.jpg");
   background-color: #426a96;
@@ -537,6 +537,10 @@ body {
   text-transform: capitalize;
 }
 
+.filter-form-title-cost{
+  margin-bottom: 34px;
+}
+
 .filter-form-list {
   padding: 0;
   margin: 0;
@@ -575,7 +579,7 @@ body {
 .filter-form-cost-min {
   width: 144px;
   font-family: "PT Sans", sans-serif;
-  padding: 14px 19px 13px 19px;
+  padding: 12px 19px 11px 19px;
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0);
   font-size: 18px;
@@ -589,7 +593,7 @@ body {
 .filter-form-cost-max {
   width: 144px;
   font-family: "PT Sans", sans-serif;
-  padding: 14px 17px 13px 17px;
+  padding: 12px 17px 11px 17px;
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0);
   box-sizing: border-box;
@@ -635,7 +639,7 @@ body {
   line-height: 20px;
   width: 160px;
   padding: 0;
-  margin: 0 auto;
+  margin: 5px auto 0;
   border-style: none;
   text-align: center;
   color: #FFFFFF;
