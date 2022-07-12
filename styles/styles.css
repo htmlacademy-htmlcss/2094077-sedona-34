@@ -455,20 +455,29 @@ body {
 .newsletter-button:hover,
 .newsletter-button:focus,
 .button-filter:hover,
-.button-filter:focus {
+.button-filter:focus,
+.button-favourite:hover,
+.button-favourite:focus,
+.pagination-link:hover,
+.pagination-link:focus {
   background-color: #68A2CA;
 }
 
 .newsletter-button:active,
-.button-filter:active {
+.button-filter:active,
+.button-favourite:active,
+.pagination-link:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #82B3D3;
 }
 
 .newsletter-button:disabled,
-.button-filter:disabled {
+.button-filter:disabled,
+.button-favourite:disabled,
+.pagination-link:disabled {
   background-color: #E5E5E5;
 }
+
 /*index-footer social-contacts-logo*/
 
 .footer-list {
@@ -991,10 +1000,36 @@ body {
   text-decoration: none;
 }
 
+.pagination-link-dot {
+  display: block;
+  margin-right: 8px;
+  padding-top: 12px;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
 .pagination-current {
   color: #000000;
   background-color: #F2F2F2;
 }
+
+.pagination-link:hover,
+.pagination-link:focus {
+  background-color: #F2F2F2;
+}
+.pagination-link:active {
+  color: #000000;
+  background-color: #F2F2F2;;
+}
+.pagination-link:disabled {
+  background-color: #F2F2F2;
+}
+
 
 .number-of-hostels-container {
   display: flex;
