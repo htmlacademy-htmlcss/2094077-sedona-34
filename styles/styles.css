@@ -178,16 +178,20 @@ body {
 }
 
 .button-navigation:hover,
-.button-navigation:focus {
+.button-navigation:focus,
+.button-search-hotel:hover,
+.button-search-hotel:focus {
   background-color: #615048;
 }
 
-.button-navigation:active {
+.button-navigation:active,
+.button-search-hotel:active {
   color:rgba(255, 255, 255, 0.3);
   background-color: #756157;
 }
 
-.button-navigation:disabled {
+.button-navigation:disabled,
+.button-search-hotel:disabled {
   background-color: #E5E5E5;
 }
 
