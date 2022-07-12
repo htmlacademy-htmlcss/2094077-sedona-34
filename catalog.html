@@ -122,13 +122,13 @@
                 <ul class="filter-form-list">
                   <li class="filter-form-item filter-form-item-cost">
                     <label class="visually-hidden" for="cost-min">Нижний порог стоимости</label>
-                    <input class="filter-form-cost-min" type="number" name="cost-min" id="cost-min" placeholder="0">
-                    <label class="visually-hidden" for="cost-mфч">Верхний порог стоимости</label>
-                    <input class="filter-form-cost-max" type="number" name="cost-max" id="cost-max" placeholder="9000">
+                    <input class="filter-form-cost-min" type="number" name="cost-min" value="0" id="cost-min" placeholder="0">
+                    <label class="visually-hidden" for="cost-max">Верхний порог стоимости</label>
+                    <input class="filter-form-cost-max" type="number" name="cost-max" value="9000" id="cost-max" placeholder="9000">
                   </li>
                   <li class="filter-form-item">
                     <label class="visually-hidden" for="slider">Ползунок выбора цены</label>
-                    <input type="range" min="0" max="10000" step="1" name="cost-slider" id="slider"> <!--Откорректировать к концу курса -->
+                    <input class="cost-slider" type="range" min="0" max="10000" step="1" name="cost-slider" id="slider"> <!--Откорректировать к концу курса -->
                   </li>
                 </ul>
               </fieldset>
