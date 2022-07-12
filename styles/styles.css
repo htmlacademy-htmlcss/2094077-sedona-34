@@ -118,6 +118,11 @@ body {
   padding-bottom: 19px;
 }
 
+.navigation-list-1 .navigation-link-current {
+  border-bottom: 2px solid #756257;
+  padding-bottom: 17px;
+}
+
 .navigation-link-search {
   min-height: 65px;
   background-image: url('../images/search.svg');
@@ -998,6 +1003,6 @@ body {
   text-transform: uppercase;
 }
 
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
