@@ -459,13 +459,13 @@ body {
   background-color: #68A2CA;
 }
 
-.newsletter-button:active
+.newsletter-button:active,
 .button-filter:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #82B3D3;
 }
 
-.newsletter-button:disabled
+.newsletter-button:disabled,
 .button-filter:disabled {
   background-color: #E5E5E5;
 }
