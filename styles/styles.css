@@ -655,6 +655,19 @@ body {
   border-radius: 4px;
 }
 
+.control-mark:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.control-mark:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 3px solid #83B3D3;
+}
+
+.control-mark:active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 .icon-checkbox {
   margin-top: 5px;
   margin-left: 4px;
@@ -675,6 +688,10 @@ body {
   height: 20px;
   background: #ffffff;
   border-radius: 50%;
+}
+
+.control-mark-radio:focus {
+  border: 3px solid #83B3D3;
 }
 
 .icon-radio {
@@ -736,14 +753,14 @@ body {
 .filter-form-cost-min:focus,
 .filter-form-cost-max:focus {
   border: 2px solid #FFFFFF;
-  box-shadow: 0px 0px 0px 3px #81B3D2;
+  box-shadow: 0 0 0 3px #81B3D2;
 }
 
 .filter-form-cost-min:active,
 .filter-form-cost-max:active {
   background-color: #756257;
   border: 2px solid #FFFFFF;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0 0 4px;
   box-shadow: none;
 }
 
