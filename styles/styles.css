@@ -573,7 +573,7 @@ body {
 .filter-form-item-cost {
   display: flex;
   width: 288px;
-
+  margin-bottom: 32px;
 }
 
 .filter-form-cost-min {
@@ -604,9 +604,40 @@ body {
   border-radius: 0 4px 4px 0;
 }
 
-.cost-slider {
-  width:285px;
+.filter-range-scale {
+  position: relative;
+  width: 278px;
+  margin-left: 10px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
+
+.filter-range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}
+
 
 .filter-form-item {
   list-style-type: none;

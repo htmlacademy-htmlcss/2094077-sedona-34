@@ -119,7 +119,27 @@
                 <legend class="filter-form-title filter-form-title-cost">
                   Стоимость, ₽:
                 </legend>
-                <ul class="filter-form-list">
+                <div class="filter-range">
+                  <div class="filter-form-item-cost">
+                    <label class="visually-hidden" for="cost-min">Нижний порог стоимости</label>
+                    <input class="filter-form-cost-min" type="number" name="cost-min" value="0" id="cost-min" placeholder="0">
+                    <label class="visually-hidden" for="cost-max">Верхний порог стоимости</label>
+                    <input class="filter-form-cost-max" type="number" name="cost-max" value="9000" id="cost-max" placeholder="9000">
+                  </div>
+                  <div class="filter-range-scale">
+                    <div class="filter-range-bar" style="left: 0; width: 228px;">
+                      <button class="range-toggle toggle-min">
+                        <span class="visually-hidden">Изменить минимальную цену.</span>
+                      </button>
+                      <button class="range-toggle toggle-max">
+                        <span class="visually-hidden">Изменить максимальную цену.</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- <ul class="filter-form-list">
                   <li class="filter-form-item filter-form-item-cost">
                     <label class="visually-hidden" for="cost-min">Нижний порог стоимости</label>
                     <input class="filter-form-cost-min" type="number" name="cost-min" value="0" id="cost-min" placeholder="0">
@@ -128,9 +148,9 @@
                   </li>
                   <li class="filter-form-item">
                     <label class="visually-hidden" for="slider">Ползунок выбора цены</label>
-                    <input class="cost-slider" type="range" min="0" max="10000" step="1" name="cost-slider" id="slider"> <!--Откорректировать к концу курса -->
+                    <input class="cost-slider" type="range" min="0" max="10000" step="1" name="cost-slider" id="slider">
                   </li>
-                </ul>
+                </ul> -->
               </fieldset>
               <fieldset class="filter-form-buttons">
                 <legend class="filter-form-title visually-hidden">
