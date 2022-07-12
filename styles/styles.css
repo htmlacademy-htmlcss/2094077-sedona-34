@@ -581,8 +581,19 @@ body {
 }
 
 .breadcrumbs-item {
+  position: relative;
   list-style-type: none;
   min-width: 40px;
+}
+
+.icon-arrow {
+  position:absolute;
+  top: 6px;
+  right: 10px;;
+  width:6px;
+  height:8px;
+  background-image: url('../images/arrow-right.svg');
+  background-repeat: no-repeat;
 }
 
 .filter-form {
