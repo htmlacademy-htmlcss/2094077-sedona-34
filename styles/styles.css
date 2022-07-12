@@ -932,6 +932,7 @@ body {
 .modal-list-item {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .modal-form-title {
@@ -949,12 +950,23 @@ body {
 }
 
 .modal-input {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
   width: 420px;
+  min-height: 50px;
+  padding-left: 19px;
+  padding-right: 17px;
   box-sizing: border-box;
+  background-color: #F2F2F2;
+  border-style: none;
+  border-radius: 4px;
 }
 
 .modal-input-number {
   width: 133px;
+  padding: 0;
+  text-align: center;
 }
 
 .modal-attention {
