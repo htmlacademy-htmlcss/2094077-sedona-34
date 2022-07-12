@@ -538,6 +538,16 @@ body {
   color: #000000;
 }
 
+.footer-contacts-address-phone:hover,
+.footer-contacts-address-phone:focus {
+  color: #756157;
+}
+
+.footer-contacts-address-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+
 /*catalog-main-header*/
 
 .main-catalog {
