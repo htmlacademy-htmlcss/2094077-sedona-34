@@ -875,6 +875,18 @@ body {
   order: 3;
 }
 
+.button-list-view:hover {
+  border-color: #000000;
+}
+
+.button-list-view:focus {
+  border-color: #68A2CA;
+}
+
+.button-list-view:active {
+  border-color: #000000;
+}
+
 .product-card-list {
   display: flex;
   flex-wrap: wrap;
