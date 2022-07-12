@@ -560,6 +560,10 @@ body {
   min-width: 150px;
 }
 
+.control-mark {
+  background: #ffffff;
+}
+
 .filter-form-housing {
   margin-right: 175px;
   min-width: 147px;
@@ -602,6 +606,14 @@ body {
   border: 2px solid #FFFFFF;
   border-left: 1px solid #FFFFFF;
   border-radius: 0 4px 4px 0;
+}
+
+.filter-form-cost-min::-webkit-outer-spin-button,
+.filter-form-cost-min::-webkit-inner-spin-button,
+.filter-form-cost-max::-webkit-outer-spin-button,
+.filter-form-cost-max::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
 }
 
 .filter-range-scale {
