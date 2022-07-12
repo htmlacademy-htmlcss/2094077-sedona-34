@@ -555,22 +555,21 @@ body {
   border-style: none;
 }
 
-.filter-form-item {
-  display: flex;
-}
-
 .filter-form-infrastructure {
   margin-right: 70px;
   min-width: 150px;
 }
 
 .control-mark {
-  display: block;
+  position: absolute;
   width: 20px;
   height: 20px;
-  margin-right: 19px;
   background: #ffffff;
   border-radius: 4px;
+}
+
+.control{
+  margin-left: 39px;
 }
 
 .filter-form-housing {
