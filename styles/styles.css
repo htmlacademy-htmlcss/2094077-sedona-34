@@ -83,13 +83,13 @@ body {
 .navigation-logo {
   display: block;
   width: 139px;
-  margin-right: 47px;
 }
 
 .navigation-logo-link {
   display: block;
   height: 65px;
   position: relative;
+  margin-right: 47px;
 }
 
 .navigation-list-1 {
@@ -145,7 +145,7 @@ body {
   left: calc(50% - 19.05px/2 + 13px);
   top: calc(50% - 13px/2 - 9px);
   font-size: 10px;
-  line-height: 13px;
+  line-height: 20px;
   color: #FFFFFF;
   text-align: center;
   background: #7DB54F;
@@ -446,7 +446,7 @@ body {
   font-size: 20px;
   line-height: 36px;
   padding: 12px 15px;
-  width: 200px;
+  width: 213px;
   border-radius: 0 10px 10px 0;
   border-style: none;
   background: #82B3D3;
@@ -510,6 +510,19 @@ body {
   min-height: 40px;
 }
 
+.social-button {
+  display: block;
+}
+
+.social-button:hover>.footer-social-icon,
+.social-button:focus>.footer-social-icon {
+  fill: #68A2CA;
+}
+
+.social-button:active>.footer-social-icon {
+  fill: rgba(104, 162, 202, 0.3);
+}
+
 .footer-social-icon {
   position: absolute;
   top: 0;
@@ -517,6 +530,7 @@ body {
   bottom: 0;
   left: 0;
   margin: auto;
+  fill:#83B3D3;
 }
 
 .footer-item-address {
@@ -647,34 +661,24 @@ body {
   min-width: 150px;
 }
 
+.control{
+  display: flex;
+  align-items: center;
+}
+
 .control-mark {
-  position: absolute;
+  display: block;
   width: 20px;
   height: 20px;
-  background: #ffffff;
+  margin-right: 20px;
+  background-color: #ffffff;
   border-radius: 4px;
 }
 
-.control-mark:hover {
-  background-color: rgba(255, 255, 255, 0.6);
-}
-
-.control-mark:focus {
-  background-color: rgba(255, 255, 255, 0.6);
-  border: 3px solid #83B3D3;
-}
-
-.control-mark:active {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.icon-checkbox {
-  margin-top: 5px;
-  margin-left: 4px;
-}
-
-.control{
-  margin-left: 39px;
+.filter-form-infrastructure-button:checked+.control-mark {
+  background-image: url('../images/bird.svg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .filter-form-housing {
@@ -683,19 +687,18 @@ body {
 }
 
 .control-mark-radio {
-  position: absolute;
+  display: block;
   width: 20px;
   height: 20px;
-  background: #ffffff;
+  margin-right: 20px;
+  background-color: #ffffff;
   border-radius: 50%;
 }
 
-.control-mark-radio:focus {
-  border: 3px solid #83B3D3;
-}
-
-.icon-radio {
-  margin: 5px 5px;
+.filter-form-housing-button:checked+.control-mark-radio {
+  background-image: url('../images/dotforradio.svg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .filter-form-cost {
@@ -872,7 +875,7 @@ body {
   align-items: center;
   width: 1056px;
   min-height: 49px;
-  margin: 0 auto 52px;
+  margin: 0 auto 54px;
 }
 
 .found-hotels-title {
@@ -1001,7 +1004,7 @@ body {
 }
 
 .product-card-image {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .product-card-title {
@@ -1407,6 +1410,6 @@ body {
   background: #E6E6E6;
 }
 
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
