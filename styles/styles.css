@@ -689,16 +689,16 @@ body {
   background-repeat: no-repeat;
 }
 
-.control:hover .control-mark {
+.filter-form-infrastructure-button:hover .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.control:focus .control-mark {
+.filter-form-infrastructure-button:focus+.control-mark {
   background-color: rgba(255, 255, 255, 0.6);
-  border: 3px solid #83B3D3;
+  box-shadow: 0 0 0 3px #83B3D3;
 }
 
-.control:active .control-mark {
+.filter-form-infrastructure-button:active .control-mark {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -722,9 +722,8 @@ body {
   background-repeat: no-repeat;
 }
 
-.control:focus .control-mark-radio {
-  box-sizing: border-box;
-  border: 3px solid #83B3D3;
+.filter-form-housing-button:focus+.control-mark-radio {
+  box-shadow: 0 0 0 3px #83B3D3;
 }
 
 .filter-form-cost {
@@ -886,7 +885,7 @@ body {
 .button-filter-reset:focus {
   color: #FFFFFF;
   box-sizing: border-box;
-  border: 3px solid #83B3D3;
+  box-shadow: 0 0 0 3px #83B3D3;
   border-radius: 4px;
 }
 
@@ -1436,6 +1435,6 @@ body {
   background: #E6E6E6;
 }
 
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
