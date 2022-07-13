@@ -538,8 +538,16 @@ body {
 }
 
 .footer-logo {
-  display: block;
-  width: 115px;
+  fill: #000000;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+  fill: #756157;
+}
+
+.footer-logo:active {
+  background-color: rgba(117, 97, 87, 0.3);
 }
 
 .footer-contacts-address-phone {
