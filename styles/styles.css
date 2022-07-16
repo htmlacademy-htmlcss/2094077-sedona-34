@@ -605,13 +605,17 @@ body {
 .breadcrumbs-item {
   position: relative;
   list-style-type: none;
-  min-width: 40px;
+  min-width: 12px;
+}
+
+.breadcrumbs-item:not(:first-child) {
+  margin-left: 25px;
 }
 
 .icon-arrow {
   position:absolute;
   top: 6px;
-  right: 10px;;
+  right: 83px;
   width: 6px;
   height: 8px;
   background-image: url('../images/arrow-right.svg');
