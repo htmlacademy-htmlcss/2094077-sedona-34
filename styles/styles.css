@@ -385,6 +385,7 @@ body {
 
 .button-search-hotel {
   display: block;
+  outline: none;
   width: 544px;
   font-weight: 700;
   font-size: 20px;
@@ -431,6 +432,7 @@ body {
 
 .newsletter-form-field {
   font-family: "PT Sans", sans-serif;
+  outline: none;
   font-size: 18px;
   line-height: 21px;
   width: 600px;
@@ -442,6 +444,7 @@ body {
 
 .newsletter-button {
   font-family: "PT Sans", sans-serif;
+  outline: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -537,21 +540,26 @@ body {
   width: 720px;
 }
 
+.footer-logo-link {
+  outline: none;
+}
+
 .footer-logo {
   fill: #000000;
 }
 
-.footer-logo:hover,
-.footer-logo:focus {
+.footer-logo-link:hover>.footer-logo,
+.footer-logo-link:focus>.footer-logo {
   fill: #756157;
 }
 
-.footer-logo:active {
+.footer-logo-link:active>.footer-logo {
   background-color: rgba(117, 97, 87, 0.3);
 }
 
 .footer-contacts-address-phone {
   display: block;
+  outline: none;
   font-style: normal;
   text-decoration: none;
   text-align: center;
