@@ -1544,6 +1544,12 @@ body {
   margin: 0;
 }
 
+.filter-form-cost-min,
+.filter-form-cost-max,
+.modal-input-number {
+  -moz-appearance: textfield;
+}
+
 .modal-close-button:hover {
   background-color: #E6E6E6;
 }
@@ -1557,6 +1563,6 @@ body {
   background: #E6E6E6;
 }
 
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
