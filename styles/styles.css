@@ -714,7 +714,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.filter-form-infrastructure-button:hover .control-mark {
+.filter-form-infrastructure-button:hover+.control-mark {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -723,7 +723,7 @@ body {
   box-shadow: 0 0 0 3px #83B3D3;
 }
 
-.filter-form-infrastructure-button:active .control-mark {
+.filter-form-infrastructure-button:active+.control-mark {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
