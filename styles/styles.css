@@ -606,6 +606,7 @@ body {
   position: relative;
   list-style-type: none;
   min-width: 12px;
+  cursor: pointer;
 }
 
 .breadcrumbs-item:not(:first-child) {
@@ -622,6 +623,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.breadcrumbs-icon {
+  fill: #ffffff;
+}
+
 .breadcrumbs-item:hover {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -634,6 +639,17 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.breadcrumbs-link:hover>.breadcrumbs-icon {
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link:focus>.breadcrumbs-icon {
+  fill: #ffffff;
+}
+
+.breadcrumbs-link:active>.breadcrumbs-icon {
+  fill: rgba(255, 255, 255, 0.3);
+}
 
 .filter-form {
   display: flex;
