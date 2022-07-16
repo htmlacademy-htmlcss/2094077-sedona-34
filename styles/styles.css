@@ -765,16 +765,37 @@ body {
 }
 
 .filter-form-item-cost {
+  position: relative;
   display: flex;
   width: 288px;
   margin-bottom: 28px;
+}
+
+.filter-form-item-cost::before {
+  content: 'от';
+  font-family: "PT Sans", sans-serif;
+  position: absolute;
+  top: 13px;
+  left: 114px;
+  color: rgba(255,255,255,0.3);
+  pointer-events: none;
+}
+
+.filter-form-item-cost::after {
+  content: 'до';
+  font-family: "PT Sans", sans-serif;
+  position: absolute;
+  top: 13px;
+  right: 17px;
+  color: rgba(255,255,255,0.3);
+  pointer-events: none;
 }
 
 .filter-form-cost-min {
   width: 144px;
   font-family: "PT Sans", sans-serif;
   outline: none;
-  padding: 12px 19px 11px 19px;
+  padding: 12px 43px 11px 19px;
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0);
   font-size: 18px;
@@ -789,7 +810,7 @@ body {
   width: 144px;
   font-family: "PT Sans", sans-serif;
   outline: none;
-  padding: 12px 17px 11px 17px;
+  padding: 12px 43px 11px 17px;
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0);
   box-sizing: border-box;
@@ -1584,7 +1605,8 @@ body {
 .minus:focus,
 .plus:focus,
 .minus-child:focus,
-.plus-child:focus {
+.plus-child:focus,
+.calendar:focus {
   border: 3px solid #83B3D3;
   border-radius: 4px;
 }
@@ -1614,6 +1636,6 @@ body {
   background: #E6E6E6;
 }
 
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
