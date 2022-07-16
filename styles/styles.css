@@ -1393,6 +1393,21 @@ body {
   text-transform: uppercase;
 }
 
+.modal-button:hover {
+  background: #68A2CA;
+}
+
+.modal-button:focus {
+  background: #68A2CA;
+  border: 3px solid #756257;
+}
+
+.modal-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background: #68A2CA;
+  border: none;
+}
+
 .information {
   position:absolute;
   width:25px;
