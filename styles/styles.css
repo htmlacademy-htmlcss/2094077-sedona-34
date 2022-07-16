@@ -1187,6 +1187,7 @@ body {
   background-color: #82B3D3;
   border-radius: 4px;
   text-decoration: none;
+  border: 1px solid #ffffff;
 }
 
 .pagination-current {
@@ -1196,12 +1197,10 @@ body {
 
 .pagination-link:hover,
 .pagination-link:focus {
-  padding-top: 11px;
   background-color: #68A2CA;
-  border: 1px solid #82B3D3
+  border: 1px solid #82B3D3;
 }
 .pagination-link:active {
-  padding-top: 11px;
   color: rgba(255, 255, 255, 0.3);
   background-color: #82B3D3;
   border: 1px solid #82B3D3;
@@ -1210,10 +1209,9 @@ body {
 .pagination-current:hover,
 .pagination-current:focus,
 .pagination-current:active {
-  padding-top: 12px;
   color: #000000;
   background-color: #F2F2F2;
-  border: none;
+  border: 1px solid #ffffff;
 }
 
 .number-of-hostels-container {
