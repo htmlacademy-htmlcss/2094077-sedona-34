@@ -1187,12 +1187,13 @@ body {
   background-color: #82B3D3;
   border-radius: 4px;
   text-decoration: none;
-  border: 1px solid #ffffff;
+  border: 1px solid #82B3D3;
 }
 
 .pagination-current {
   color: #000000;
   background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
 }
 
 .pagination-link:hover,
@@ -1211,7 +1212,7 @@ body {
 .pagination-current:active {
   color: #000000;
   background-color: #F2F2F2;
-  border: 1px solid #ffffff;
+  border: 1px solid #F2F2F2;
 }
 
 .number-of-hostels-container {
