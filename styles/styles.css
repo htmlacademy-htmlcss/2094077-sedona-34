@@ -1571,6 +1571,6 @@ body {
   background: #E6E6E6;
 }
 
-    /* .modal-container-close {
-      display: none;
-    } */
+.modal-container-close {
+  display: none;
+}
