@@ -803,10 +803,18 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.6);
 }
 
+.filter-form-cost-max:hover {
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+}
+
 .filter-form-cost-min:focus,
 .filter-form-cost-max:focus {
   border: 2px solid #FFFFFF;
   box-shadow: 0 0 0 3px #81B3D2;
+}
+
+.filter-form-cost-max:focus {
+  border-left: 1px solid #FFFFFF;
 }
 
 .filter-form-cost-min:active,
