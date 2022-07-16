@@ -1330,6 +1330,7 @@ body {
 }
 
 .modal-form-title {
+  position: relative;
   width: 155px;
   font-style: normal;
   font-weight: 700;
@@ -1433,6 +1434,43 @@ body {
   background-position: center;
   background-color: #83B3D3;
   border-radius: 50%;
+}
+
+.details {
+  display: none;
+  position: absolute;
+  left: -62px;
+  box-sizing: border-box;
+  width: 257px;
+  min-height: 143px;
+  color: #ffffff;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 15px;
+  padding: 15px 18px 18px 22px;
+  background-color: #333333;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.decoration {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color:#333333;;
+  left: 47.10%;
+  top: -5%;
+  transform: rotate(45deg);
+}
+
+.information:hover+.details {
+  display: block
+}
+
+.information:hover {
+  background-color: #68A2CA;
 }
 
 .minus {
