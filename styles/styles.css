@@ -825,6 +825,10 @@ body {
   box-shadow: none;
 }
 
+.filter-form-cost-max:active {
+  border-left: 1px solid #FFFFFF;
+}
+
 .filter-range-scale {
   position: relative;
   width: 278px;
