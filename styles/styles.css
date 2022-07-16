@@ -1380,6 +1380,10 @@ body {
   border-radius: 4px;
 }
 
+.modal-input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
 .modal-input:hover {
   background-color: #E6E6E6;
 }
@@ -1496,6 +1500,22 @@ body {
   background-color: #68A2CA;
 }
 
+.calendar {
+  position:absolute;
+  outline: none;
+  padding: 12px 6px;
+  background-image: url('../images/calendar.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25px;
+  height: 25px;
+  top: 12px;
+  right: 16px;
+  box-sizing: border-box;
+  border-style: none;
+  cursor: pointer;
+}
+
 .minus {
   position:absolute;
   outline: none;
@@ -1589,6 +1609,6 @@ body {
   background: #E6E6E6;
 }
 
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
