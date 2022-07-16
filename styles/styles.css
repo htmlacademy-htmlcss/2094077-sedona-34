@@ -1177,19 +1177,6 @@ body {
   text-decoration: none;
 }
 
-.pagination-link-dot {
-  display: block;
-  margin-right: 8px;
-  padding-top: 12px;
-  width: 60px;
-  height: 60px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  background-color: #82B3D3;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
 .pagination-current {
   color: #000000;
   background-color: #F2F2F2;
