@@ -1358,6 +1358,20 @@ body {
   border-radius: 4px;
 }
 
+.modal-input:hover {
+  background-color: #E6E6E6;
+}
+
+.modal-input:focus {
+  background-color: #E6E6E6;
+  border: 3px solid #83B3D3;
+}
+
+.modal-input:active {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
 .modal-input-number {
   width: 133px;
   padding: 0;
@@ -1475,6 +1489,14 @@ body {
   box-sizing: border-box;
   border-style: none;
   cursor: pointer;
+}
+
+.minus:focus,
+.plus:focus,
+.minus-child:focus,
+.plus-child:focus {
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
 }
 
 .modal-input-number::-webkit-outer-spin-button,
