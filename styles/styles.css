@@ -1298,6 +1298,7 @@ body {
 
 .modal-close-button {
   position: relative;
+  outline: none;
   width: 53px;
   height: 53px;
   background-color: #F2F2F2;
@@ -1350,6 +1351,7 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
+  outline: none;
   width: 420px;
   min-height: 50px;
   padding-left: 19px;
@@ -1376,6 +1378,7 @@ body {
 
 .modal-input-number {
   width: 133px;
+  outline: none;
   padding: 0;
   text-align: center;
 }
@@ -1398,6 +1401,7 @@ body {
   margin: 0 auto;
   width: 100%;
   height: 60px;
+  outline: none;
   color: #FFFFFF;
   border-style: none;
   background-color: #83B3D3;
@@ -1476,6 +1480,7 @@ body {
 
 .minus {
   position:absolute;
+  outline: none;
   padding: 12px 6px;
   background-image: url('../images/minus.svg');
   background-repeat: no-repeat;
@@ -1490,6 +1495,7 @@ body {
 
 .plus {
   position:absolute;
+  outline: none;
   padding: 6px;
   background-image: url('../images/plus.svg');
   background-repeat: no-repeat;
@@ -1504,6 +1510,7 @@ body {
 
 .minus-child {
   position:absolute;
+  outline: none;
   padding: 12px 6px;
   background-image: url('../images/minus.svg');
   background-repeat: no-repeat;
@@ -1518,6 +1525,7 @@ body {
 
 .plus-child {
   position:absolute;
+  outline: none;
   padding: 6px;
   background-image: url('../images/plus.svg');
   background-repeat: no-repeat;
@@ -1563,6 +1571,6 @@ body {
   background: #E6E6E6;
 }
 
-/* .modal-container-close {
-  display: none;
-} */
+    /* .modal-container-close {
+      display: none;
+    } */
