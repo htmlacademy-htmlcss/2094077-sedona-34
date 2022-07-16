@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
@@ -147,7 +149,7 @@
           <p class="newsletter-description">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
             <label class="visually-hidden" for="newsletter-email">Форма подписки на рассылку</label>
-            <input class="newsletter-form-field" type="email" name="newsletter-email" id="newsletter-email" placeholder="Ваш e-mail" required> <!-- А туут в плэйсхолдере же надо указать "Ваш e-mail"?-->
+            <input class="newsletter-form-field" type="email" name="newsletter-email" id="newsletter-email" placeholder="Ваш e-mail" required>
             <button class="button newsletter-button" type="submit">
               Подписаться
             </button>
@@ -201,44 +203,58 @@
         </section>
       </footer>
     </div>
+    <!--Модальное окно-->
     <div class="modal-container modal-container-close">
       <div class="modal">
         <section class="modal-section-title">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <button class="modal-close-button">
-            <span class="visually-hidden">Закрыть</span>
+            <span class="visually-hidden">Закрыть.</span>
             <svg class="modal-icon-close" aria-hidden="true" focusable="false" width="13" height="13" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M13 1.2 11.8 0 6.5 5.3 1.2 0 0 1.2l5.3 5.3L0 11.8 1.2 13l5.3-5.3 5.3 5.3 1.2-1.2-5.3-5.3L13 1.2Z" fill="#000"/>
             </svg>
           </button>
         </section>
         <section class="modal-content">
+          <h2 class="visually-hidden">Ввод данных (модальное окно).</h2>
           <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
             <ul class="modal-list">
               <li class="modal-list-item">
-                <label class="modal-form-title" for="arrival-date">Дата заезда:</label>
-                <input class="modal-input" type="date" name="date-in" value="2020-04-27" id="arrival-date">
-                <p class="modal-attention">Мы не можем отправить вас в прошлое.</p>
+                <label class="modal-form-title" for="arrival-date">
+                  Дата заезда:
+                </label>
+                <button class="calendar" type="button"><span class="visually-hidden">Выбрать дату.</span></button>
+                <input class="modal-input" type="date" name="date-in" placeholder="2020-04-27" id="arrival-date">
+                <p class="modal-attention"><span>Мы не можем отправить вас в прошлое.</span></p>
               </li>
               <li class="modal-list-item">
-                <label class="modal-form-title" for="departure-date">Дата выезда:</label>
-                <input class="modal-input" type="date" name="date-off" value="2021-09-01" id="departure-date">
-                <p class="modal-attention modal-consideration">На эти даты есть свободные номера. Пока есть.</p>
+                <label class="modal-form-title" for="departure-date">
+                  Дата выезда:
+                </label>
+                <button class="calendar" type="button"><span class="visually-hidden">Выбрать дату.</span></button>
+                <input class="modal-input" type="date" name="date-off" placeholder="2021-09-01" id="departure-date">
+                <p class="modal-attention modal-consideration"><span>На эти даты есть свободные номера. Пока есть.</span></p>
               </li>
               <li class="modal-list-item">
-                <label class="modal-form-title" for="number-of-adult">Взрослые:</label>
-                <button class="minus" type="button"></button>
-                <button class="plus" type="button"></button>
-                <input class="modal-input modal-input-number" type="number" name="number-adult" value="2" id="number-of-adult">
+                <label class="modal-form-title" for="number-of-adult">
+                  Взрослые:
+                </label>
+                <button class="minus" type="button"><span class="visually-hidden">Уменьшить количество взрослых.</span></button>
+                <button class="plus" type="button"><span class="visually-hidden">Увеличить количество взрослых.</span></button>
+                <input class="modal-input modal-input-number" type="number" name="number-adult" placeholder="2" id="number-of-adult">
               </li>
               <li class="modal-list-item">
-                <label class="modal-form-title modal-form-title-child" for="number-of-child">Дети:<span class="information"></span></label>
-                <button class="minus-child" type="button"></button>
-                <button class="plus-child" type="button"></button>
-                <input class="modal-input modal-input-number" type="number" name="number-child" value="1" id="number-of-child">
+                <label class="modal-form-title modal-form-title-child" for="number-of-child">
+                  Дети:
+                  <span class="information"></span>
+                  <div class="details"><span class="decoration"></span>Укажите количество детей,<br> которые будут с вами, возраст<br> которых от 6 до 18 лет. Дети<br> до 6 лет размещаются<br> бесплатно.</div>
+                </label>
+                <button class="minus-child" type="button"><span class="visually-hidden">Уменьшить количество детей.</span></button>
+                <button class="plus-child" type="button"><span class="visually-hidden">Увеличить количество детей.</span></button>
+                <input class="modal-input modal-input-number" type="number" name="number-child" placeholder="1" id="number-of-child">
               </li>
             </ul>
-            <button class="modal-button">Найти</button>
+            <button class="modal-button" type="submit">Найти</button>
           </form>
         </section>
       </div>
